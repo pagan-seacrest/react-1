@@ -25,7 +25,7 @@ export class Modal extends Component {
 				  </header>
 				  <p className="modal-text">{this.props.text}</p>
 				  <div className="modal-bt-container">
-				  	<button className={"modal-bt".concat(" ", this.props.altModalBtStyle)}>{this.props.actions[0]}</button>
+					<button className={"modal-bt".concat(" ", this.props.altModalBtStyle)}>{this.props.actions[0]}</button>
 				  	<button className={"modal-bt".concat(" ", this.props.altModalBtStyle)}>{this.props.actions[1]}</button>
 				  </div>
 				</div>
